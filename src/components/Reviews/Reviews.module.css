@@ -1,0 +1,17 @@
+.reviews {
+  padding: 10px 0;
+}
+
+.reviewsList {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  list-style: none;
+}
+
+.reviewsItem {
+  border-bottom: 1px solid lightgrey;
+  padding: 10px;
+}

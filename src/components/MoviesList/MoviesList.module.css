@@ -1,0 +1,19 @@
+.moviesList {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.moviesListLink {
+  display: inline-block;
+  color: black;
+  padding: 5px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.moviesListLink:hover,
+.moviesListLink:focus {
+  color: darkcyan;
+}

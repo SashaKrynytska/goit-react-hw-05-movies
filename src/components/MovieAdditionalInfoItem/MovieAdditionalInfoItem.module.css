@@ -1,0 +1,38 @@
+.infoWrapper {
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.infoTitle {
+  margin-left: 10px;
+}
+
+.infoList {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.infoItem {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: grey;
+  font-size: 20px;
+}
+
+.infoItem:hover,
+.infoItem:focus {
+  color: darkcyan;
+}
+
+.nav_active {
+  color: darkcyan;
+}
