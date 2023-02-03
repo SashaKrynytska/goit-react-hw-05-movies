@@ -16,7 +16,7 @@ export const MovieCast = () => {
 
   return (
     <div className={css.cast}>
-      {actors.length > 0 ? (
+      {!actors.length ? (
         <div>We don't have any cast for this movie!</div>
       ) : (
         <ul className={css.castList}>
