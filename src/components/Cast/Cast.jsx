@@ -17,6 +17,8 @@ export const MovieCast = () => {
   return (
     <div className={css.cast}>
       {actors.length > 0 ? (
+        <div>We don't have any cast for this movie!</div>
+      ) : (
         <ul className={css.castList}>
           {actors.map(actor => (
             <li key={actor.id} className={css.castItem}>
@@ -34,8 +36,6 @@ export const MovieCast = () => {
             </li>
           ))}
         </ul>
-      ) : (
-        <div>We don't have any cast for this movie!</div>
       )}
     </div>
   );
